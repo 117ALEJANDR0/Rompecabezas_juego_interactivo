@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.puzzle-container {
+    position: relative;
+    width: 300px; /* Ajusta según el tamaño deseado */
+    height: 300px; /* Ajusta según el tamaño deseado */
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+.puzzle-piece {
+    position: absolute;
+    cursor: grab;
+}
